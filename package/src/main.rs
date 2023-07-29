@@ -1,0 +1,13 @@
+/*
+PACKAGES IN RUST -> CRATES
+    WRITING PACKAGES
+    EXPORTING PACKAES
+    CONSUMING PACKAES
+    INSTALLING EXTERNAL PACKAGES
+
+
+
+*/
+fn main() {
+    println!("Hello, world!");
+}

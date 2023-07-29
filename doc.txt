@@ -1,0 +1,71 @@
+# THE RUST DOCUMENTATION
+
+# TO GET TO THE DOCUMENTATION (THE BOOK) RUN
+
+$ rustup doc --book
+
+# TO UPDATE RUST RUN
+$ rustup update
+
+# TO UNINSTALL RUST
+$ rustup self uninstall
+
+# INSTALLING RUST ON LINUX
+$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
+# COMPILING RUST CODE
+$ rustc filename.rs
+
+# RUNNING/EXECUTING RUST CODE
+$ ./filename
+
+# Cargo tool - used to build projects and manage dependancies
+$ cargo --version 
+cargo 1.70.0 (2023-04-25)
+
+# CREATING A PROJECT WITH CARGO
+$ cargo new directoryname
+
+# BUILDING A CARGO PROJECT
+$ cd /path/to/cargoproject
+$ cargo build
+
+# RUNNING A CARGO PROJECT
+$ cargo run
+
+# CHECKING FOR ERRORS IN YOUR RUST SOURCE CODE
+$ cargo check
+
+If you’re continually checking your work while writing the code, using cargo check will 
+speed up the process of letting you know if your project is still compiling! As such, 
+many Rustaceans run cargo check periodically as they write their program to make sure 
+it compiles. Then they run cargo build when they’re ready to use the executable.
+
+# BUILD RELEASE
+$ cargo build release
+
+When your project is finally ready for release, you can use cargo build --release to compile 
+it with optimizations. This command will create an executable in target/release instead of 
+target/debug. The optimizations make your Rust code run faster, but turning them on lengthens 
+the time it takes for your program to compile. This is why there are two different profiles: 
+one for development, when you want to rebuild quickly and often, and another for building the 
+final program you’ll give to a user that won’t be rebuilt repeatedly and that will run as fast 
+as possible.
+
+# TOML file
+Tom's Obvious, Minimal Language
+This file contains the project's configuration details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
