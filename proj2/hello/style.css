@@ -1,0 +1,18 @@
+/* Writing CSS for a RUST app */
+
+header, main, footer{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	background-color: whitesmoke;
+}
+
+h1{
+	font-size: x-large;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+h2{
+	color: darkturquoise;
+}

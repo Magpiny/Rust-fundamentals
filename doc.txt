@@ -56,6 +56,13 @@ as possible.
 Tom's Obvious, Minimal Language
 This file contains the project's configuration details
 
+# Cargo can do the following among other things:
+
+    Customize your build through release profiles
+    Publish libraries on crates.io
+    Organize large projects with workspaces
+    Install binaries from crates.io
+    Extend Cargo using custom commands
 
 
 

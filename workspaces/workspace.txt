@@ -1,0 +1,26 @@
+Workspaces
+
+A workspace is a collection of one or more packages, called workspace members, that are managed together.
+
+The key points of workspaces are:
+
+    Common commands can run across all workspace members, like cargo check --workspace.
+    All packages share a common Cargo.lock file which resides in the workspace root.
+    All packages share a common output directory, which defaults to a directory named target in the workspace root.
+    Sharing package metadata, like with workspace.package.
+    The [patch], [replace] and [profile.*] sections in Cargo.toml are only recognized in the root manifest, and ignored in member crates’ manifests.
+
+In the Cargo.toml, the [workspace] table supports the following sections:
+
+    [workspace] — Defines a workspace.
+        resolver — Sets the dependency resolver to use.
+        members — Packages to include in the workspace.
+        exclude — Packages to exclude from the workspace.
+        default-members — Packages to operate on when a specific package wasn’t selected.
+        package — Keys for inheriting in packages.
+        dependencies — Keys for inheriting in package dependencies.
+        metadata — Extra settings for external tools.
+    [patch] — Override dependencies.
+    [replace] — Override dependencies (deprecated).
+    [profile] — Compiler settings and optimizations.
+

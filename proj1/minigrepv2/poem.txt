@@ -7,4 +7,38 @@ How dreary to be somebody!
 How public, like a frog
 To tell your name the livelong day
 To an admiring bog!
-
+FUNCTIONS ARE FIRST-CLASS CITIZENS, SYNTAX RESEMBLES JAVA, INHERITANCE
+is prototypal, and (+"") equals zero. This is JavaScript, arguably the most polarizing
+and misunderstood programming language in the world. It was created in 10 days and
+had a lot of warts and rough edges. Since then, there have been many attempts to
+replace it as the language of the Web. And yet, the language and the ecosystem around
+it are thriving. JavaScript is the most popular language in the world—and the only
+true language of the web platform. What made JavaScript special? Why did a language
+that was created in such a hurry succeed where others failed?
+I believe the reasons why JavaScript (and the Web in general) survived lie in its omni-
+presence—it’s practically impossible to find a personal computer that doesn’t have
+some sort of JavaScript interpreter—and its ability to gain from disorder, to use its
+stressors for self-improvement.
+JavaScript, like no other language, brought all kinds of different people to the plat-
+form. Anyone with a text editor and a web browser could get started with JavaScript,
+and many did. Its expressiveness and limited standard library prompted those people
+to experiment with the language and push it to its limits. People were not only making
+websites and applications; they were writing libraries and creating programming lan-
+guages that could be compiled back into JavaScript. Those libraries competed with
+each other, and their approaches to solving problems often contradicted one another.
+The JavaScript ecosystem was a mess, but it was bursting with life.
+Many of those libraries and languages are now forgotten. Their best ideas, however—
+the ones that proved themselves and stood the test of time—were absorbed into the
+language. They made their way into JavaScript’s standard library and its syntax. They
+made the language better.
+Then there were languages and technologies that were designed to replace JavaScript.
+But instead of succeeding, they unwillingly became its necessary stressors. Every time
+a new language or system to replace JavaScript emerged, browser vendors would find
+a way to make it faster, more powerful, and more robust. Once again, good ideas were
+absorbed into newer versions of the language, and the bad ones were discarded. These
+competing technologies didn’t replace JavaScript; instead, they made it better.
+Today, JavaScript is unbelievably popular. Will it last? I don’t know. I cannot predict
+whether it will still be popular 5 or 10 years from now, but it doesn’t really matter. For
+me, JavaScript will always be a great example of a language that survived not despite
+its flaws but because of them, and a language that brought people of so many different
+backgrounds into this wonderful world of computer programming.

@@ -1,0 +1,22 @@
+[workspace]
+
+members = [
+	"bin/math",
+	"lib/square",
+	"lib/add_two",
+	"tests/test1"
+]
+
+default-members=['bin/math']
+
+[workspace.package]
+version = "0.0.1"
+rust-version = "1.71.1"
+authors = ["Wanjare Samuel"]
+description = "I'm still figuring out rust"
+documentation = "htpps://www.magpinyblog.dev"
+repository = "htpps://github.com/Magpiny"
+
+[workspace.dependencies]
+add_two = { path="lib/add_two"}
+square = { path="lib/square"}
